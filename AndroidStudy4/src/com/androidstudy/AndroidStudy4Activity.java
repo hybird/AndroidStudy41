@@ -31,4 +31,11 @@ public class AndroidStudy4Activity extends Activity {
     	intent.setClass(this, LoaderCursor.class);
     	startActivity(intent);
 	}
+    
+    public void toWebkit(View view)
+	{
+    	Intent intent = new Intent();
+    	intent.setClass(this, WebkitTestActivity.class);
+    	startActivity(intent);
+	}
 }
