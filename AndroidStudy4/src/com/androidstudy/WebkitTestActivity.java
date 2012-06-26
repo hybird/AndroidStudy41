@@ -34,7 +34,7 @@ public class WebkitTestActivity extends Activity
   
         /** 
          * This is not called on the UI thread. Post a runnable to invoke 
-         * 这不是呼吁界面线程。发表一个运行调用 
+         * 这不是界面线程。发表一个运行调用 
          * loadUrl on the UI thread. 
          * loadUrl在UI线程。 
          */  
