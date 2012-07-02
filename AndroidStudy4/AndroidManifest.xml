@@ -25,6 +25,8 @@
         <activity android:name=".ItemDetailActivity"></activity>
         <activity android:name=".LoaderCursor"></activity>
         <activity android:name=".WebkitTestActivity"></activity>
+        <activity android:name=".ServiceActivity"></activity>
+        <service android:name=".ServiceTest"></service>
     </application>
 
 </manifest>

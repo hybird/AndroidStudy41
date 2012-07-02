@@ -38,4 +38,11 @@ public class AndroidStudy4Activity extends Activity {
     	intent.setClass(this, WebkitTestActivity.class);
     	startActivity(intent);
 	}
+    
+    public void toService(View view) 
+	{
+    	Intent intent = new Intent();
+    	intent.setClass(this, ServiceActivity.class);
+    	startActivity(intent);
+	}
 }
