@@ -37,5 +37,15 @@
         android:layout_height="wrap_content"
         android:onClick="toService"
         android:text="toService" />
+
+    <EditText
+        android:id="@+id/editText1"
+        style="@style/CodeFont"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10" >
+
+        <requestFocus />
+    </EditText>
 
 </LinearLayout>
