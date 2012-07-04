@@ -47,5 +47,19 @@
 
         <requestFocus />
     </EditText>
+
+    <Button
+        android:id="@+id/sms1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="openSms"
+        android:text="openSms" />
+
+    <Button
+        android:id="@+id/sms2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="sendSms"
+        android:text="sendSms" />
 
 </LinearLayout>
