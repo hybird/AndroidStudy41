@@ -24,7 +24,7 @@ public class WebkitTestActivity extends Activity
 
 		wv.addJavascriptInterface(new DemoJavaScriptInterface(), "demo");
 		setContentView(wv);
-		wv.loadUrl("file:///android_asset/demo.html");
+		wv.loadUrl("file:///android_asset/jquerytest.html");
 	}
 
 	// 这是他定义由 addJavascriptInterface 提供的一个Object  

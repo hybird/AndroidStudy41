@@ -3,5 +3,7 @@
 
     <string name="hello">Hello World, AndroidStudy4Activity!</string>
     <string name="app_name">AndroidStudy4</string>
+    <string name="tab_words">words</string>
+    <string name="tab_numbers">Numbers</string>
 
 </resources>

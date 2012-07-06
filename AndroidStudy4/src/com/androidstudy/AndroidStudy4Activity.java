@@ -62,6 +62,8 @@ public class AndroidStudy4Activity extends Activity
 
 		startActivity(intent);
 	}
+	
+	
 
 	public void sendSms(View view)
 	{
@@ -95,5 +97,17 @@ public class AndroidStudy4Activity extends Activity
 			Toast.makeText(AndroidStudy4Activity.this, "发送地址或者内容不能为空",
 					Toast.LENGTH_SHORT).show();
 		}
+	}
+	
+	public void toTab(View view){
+		Intent intent = new Intent();
+		intent.setClass(this, TabTestActivity.class);
+		startActivity(intent);
+	}
+	
+	public void toTab2(View view){
+		Intent intent = new Intent();
+		intent.setClass(this, TabFragActivity.class);
+		startActivity(intent);
 	}
 }

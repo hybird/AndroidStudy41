@@ -5,39 +5,40 @@
     android:orientation="vertical" >
 
     <fragment
+        android:id="@+id/fragment1"
         android:name="com.androidstudy.ExampleFragment"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        class="com.androidstudy.ExampleFragment"
-        android:id="@+id/fragment1"
-         />
-
+        class="com.androidstudy.ExampleFragment" />
+
     <Button
         android:id="@+id/toFrag"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="toFrag" android:onClick="toFrag"/>
-
+        android:onClick="toFrag"
+        android:text="toFrag" />
+
     <Button
         android:id="@+id/toCursor"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:onClick="toCursor"
         android:text="toCursor" />
-
+
     <Button
         android:id="@+id/toWebkit"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="toWebkit" android:onClick="toWebkit"/>
-
+        android:onClick="toWebkit"
+        android:text="toWebkit" />
+
     <Button
         android:id="@+id/toService"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:onClick="toService"
         android:text="toService" />
-
+
     <EditText
         android:id="@+id/editText1"
         style="@style/CodeFont"
@@ -47,19 +48,40 @@
 
         <requestFocus />
     </EditText>
-
+
     <Button
         android:id="@+id/sms1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:onClick="openSms"
         android:text="openSms" />
-
+
     <Button
         android:id="@+id/sms2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:onClick="sendSms"
         android:text="sendSms" />
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/toTab"
+            android:layout_width="95dp"
+            android:layout_height="wrap_content"
+            android:onClick="toTab"
+            android:text="toTab" />
+
+        <Button
+            android:id="@+id/tab2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="toTab2"
+            android:text="toTab2" />
+    </LinearLayout>
 
 </LinearLayout>
