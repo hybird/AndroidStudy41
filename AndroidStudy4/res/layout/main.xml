@@ -82,6 +82,13 @@
             android:layout_height="wrap_content"
             android:onClick="toTab2"
             android:text="toTab2" />
+        
+        <Button
+            android:id="@+id/tab3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="toListScoll"
+            android:text="list" />
     </LinearLayout>
 
 </LinearLayout>
